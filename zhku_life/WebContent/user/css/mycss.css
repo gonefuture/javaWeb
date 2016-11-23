@@ -1,0 +1,217 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+}
+.navbar{
+    margin:0px ;
+}
+.navbar .navbar-brand{
+    margin: 0px;
+    padding:0px;
+}
+#broadcast{
+    margin: 50px 0 50px 0;
+    padding-top:0;
+}
+#broadcast img{
+    margin: 0 auto;
+}
+#content{
+    margin-bottom: 50px;
+}
+#content-header-h2{
+    font-size: 26px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.content-header-p{
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #666;
+}
+.content-h4{
+    letter-spacing: 2px;
+}
+.content-p{
+    letter-spacing: 2px;
+    line-height: 1.6;
+}
+.media-body{
+    margin-left: 100px;
+}
+.media .col-md-6{
+    margin: 20px 0;
+}
+.text{
+    text-align: center;
+}
+#tab1{
+    background-color: #eee;
+}
+#tab1 .auto {
+    height: 60%;
+    width: 60%;
+    margin: 10px auto;
+}
+#tab2 .auto{
+    height: 35%;
+    width: 35%;
+    margin: 10px auto;
+}
+#tab2 {
+    margin-bottom:50px ;
+}
+#footer{
+    background-color: #666;
+    text-align: center;
+}
+.jumbotron{
+    background-image: url("../img/bg.jpg");
+}
+.jumbotron{
+    padding: 70px 0;
+    color: #eeeeee;
+    margin: 0;
+}
+#information{
+    background-color: #eee;
+    padding-bottom: 40px;
+}
+#information p{
+    line-height: 1.6;
+}
+#information .information-content{
+    margin: 20px 0 0px 0;
+    background-color: #fff;
+    box-shadow: 2px 2px 3px #666;
+}
+#information .information-img{
+    margin: 12px 0;
+}
+#information .information-text{
+    margin-left:-8px ;
+}
+.information-right,.blockquote{
+    background-color: #fff;
+    box-shadow: 2px 2px 3px #333;
+}
+.blockquote h4{
+    font-size: 20px;
+}
+#information-right{
+    margin: 20px 0 0 0;
+
+}
+#case{
+    text-align: center;
+    background-color: #eee;
+    padding: 20px 0;
+}
+#information h4 {
+    font-size: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#about{
+    background-color: #eeeeee;
+}
+ul.nav-pills{
+    width: 200px;
+}
+ul.nav-pills.affix{
+    top:50px
+}
+#about{
+    padding: 50px 0;
+}
+#about-content{
+    background-color: #fff;
+    margin: 30px 0 30px 0;
+}
+#about-body{
+    background-color: #eee;
+}
+#about h3{
+    font-size: 25px;
+}
+#about p{
+    line-height: 1.6;
+    font-size: 16px;
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+    #content-header-h2{
+        font-size: 20px;
+    }
+    .content-header-p{
+        font-size: 16px;
+    }
+    #tab1 .img{
+        float: right;
+    }
+    #tab1 .text{
+        float: right;
+    }
+    #information h4 {
+        font-size: 16px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    #about h3{
+        font-size: 20px;
+    }
+    #about p{
+        font-size: 16px;
+    }
+}
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+    #content-header-h2{
+        font-size: 22px;
+    }
+    .content-header-p{
+        font-size: 18px;
+    }
+    #tab1 .img{
+        float: right;
+    }
+    #tab1 .text{
+        float: right;
+    }
+    #information h4 {
+        font-size: 18px;
+    }
+    #about h3{
+        font-size: 22px;
+    }
+    #about p{
+        font-size: 17px;
+    }
+}
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+    #content-header-h2{
+        font-size: 24px;
+    }
+    .content-header-p{
+        font-size: 20px;
+    }
+    #tab1 .img{
+        float: right;
+    }
+    #tab1 .text{
+        float: right;
+    }
+    #information h4 {
+        font-size: 20px;
+    }
+    #about h3{
+        font-size: 24px;
+    }
+    #about p{
+        font-size: 18px;
+    }
+}

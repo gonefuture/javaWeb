@@ -1,0 +1,23 @@
+DROP TABLE IF EXISTS `manager`;
+CREATE TABLE `manager` (
+  `admin_id` INT(2) NOT NULL,
+  `role` INT(1) DEFAULT NULL COMMENT '1宿管；0送水',
+  `name` VARCHAR(15) DEFAULT NULL,
+  `password` VARCHAR(10) DEFAULT NULL,
+  `telephone` CHAR(11) DEFAULT NULL,
+  `schoolpart` VARCHAR(15) DEFAULT NULL COMMENT '校区',
+  PRIMARY KEY (`admin_id`)
+) ENGINE=INNODB DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `repairorder`;
+CREATE TABLE `repairorder` (
+  `id` CHAR(32) NOT NULL COMMENT 'uuid生成',
+  `user_id` INT(2) DEFAULT NULL COMMENT '用户ID',
+  `admin_id` INT(2) DEFAULT NULL COMMENT '管理者ID',
+  `ordertime` DATETIME DEFAULT NULL COMMENT '报修时间',
+  `dealtime` DATETIME DEFAULT NULL COMMENT '处理时间',
+  finishTime DATETIME ,
+  `question` VARCHAR(100) DEFAULT NULL COMMENT '问题描述',
+  `state` INT(2) DEFAULT NULL COMMENT '状态（0:未处理；1：已处理）',
+  PRIMARY KEY (`id`)
+) ENGINE=INNODB DEFAULT CHARSET=utf8;
