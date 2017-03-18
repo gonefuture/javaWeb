@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<title>用户登陆</title>
+<script type="text/javascript" src="../jQuery/teXiao2.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/buJu2.css"/>
+
+</head>
+<body onLoad="show2()">
+<div class="main">
+	<div class="handler">
+		<div class="home"><a href="../page/mainPage.html" style="text-decoration:none;color:white">HOME</a></div>
+			<ul>
+			<li><a href="#">JQuery</a></li>
+			<li><a href="#">HTML</a></li>
+			<li><a href="#">JAVA</a></li>
+			<li><a href="#">MYSQL</a></li>
+			</ul>
+	
+		</div>
+	
+	<div class="loginKuang">
+		<div class="loginHeader"><p><strong>Login</strong>.now</p></div>
+
+		<!--表单-->
+		<form action="loginServlet" method="post">
+		<!--姓名-->
+		<div class="input"><div class="input_Logo"><img src="../image/name.jpg"></div>
+		<input id="name"type="text" style="height:95%;font-size:20px;" placeholder="UserName" name="userName" required>
+		</div>
+		<!--密码-->
+		<div class="input" style="margin-top:15px"><div class="input_Logo">
+		<img src="../image/password.jpg"></div>
+		<input id="password" type="password" style="height:95%;font-size:20px" placeholder="PassWord" name="userPass" required>
+		</div>
+		
+		
+		
+		
+		<input type="submit" value="Login" style="margin-top:60px;width:180px;height:50px;margin-left:-50px;font-size:2em;color:gray" >
+		<a href="../page/signUp.html">signUp</a>
+		</form>
+	</div>
+	
+	
+</div>
+<div class="footer">版权&copy叶超，伟龙，翰清，伟健</div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>脚本小游戏之疯狂打小人</title>
+<script src="https://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
+<link  rel="stylesheet" type="text/css" href="divset.css">
+<script type = "text/javascript" language = "javascript" src = "action.js"></script>
+
+</head>
+<body onLoad="xiaoShi()">
+	<button id="go" style="width:80px;height:80px;background:gold;color:purple">开始游戏</button>
+	
+	<!--小人出现的范围框-->
+	<div class="divmax"> 
+		<div class="div1"><img id="p1"src="1.jpg"></div>
+		<div class="div1"><img id="p2"src="1.jpg"></div>
+		<div class="div1"><img id="p3"src="1.jpg"></div>
+		<div class="div1"><img id="p4"src="1.jpg"></div>
+		<div class="div1"><img id="p5"src="1.jpg"></div>
+		<div class="div1"><img id="p6"src="1.jpg"></div>
+		<div class="div1"><img id="p7"src="1.jpg"></div>
+		<div class="div1"><img id="p8"src="1.jpg"></div>
+		<div class="div1"><img id="p9"src="1.jpg"></div>
+	</div>
+	
+	
+	<!--规则框-->
+	<div id="start" style="text-align:center">
+	<h3 style="color:blue;">请阅读，游戏规则</h3>
+	<p>用鼠标点击图片，以获得分数</p>
+	<p>如果走掉的小人大于5个，游戏结束</p>
+	<p>F5重新游戏</p>
+	</div>
+	<!--显示分数用的-->
+	<p id="fenshu" style="position:absolute;left:520px;top:250px;">
+</body>
+</html>

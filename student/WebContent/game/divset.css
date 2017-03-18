@@ -1,0 +1,51 @@
+﻿.divmax{
+		
+		border:1px solid gold;
+		width:200px;
+		height:200px;
+		background:#949494;
+		position:absolute;
+		opacity:0.4;
+		top:100px;
+		
+	}
+
+.div1{
+		
+		width:30%;
+		height:30%;
+		margin-left:2px;
+		margin-top:2px;
+		float:left;
+}
+		
+.divmax div{
+		border:2px solid gold;
+		border-radius:20px;
+
+}
+
+.divmax p{
+
+	text-align:center;
+	position:relative;
+	margin-top:35px;
+
+
+
+}
+.div1 img{
+	
+		width:100%;
+		height:100%;
+		border:1px solid gold;
+		border-radius:20px;
+	
+}
+#start{
+	
+	width:300px;
+	height:300px;
+	position:absolute;
+	top:400px;
+}

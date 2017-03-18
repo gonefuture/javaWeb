@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<title>用户注册</title>
+<script type="text/javascript" src="../jQuery/teXiao3.js"></script>
+<link rel="stylesheet" type="text/css" href="../CSS/buJu3.css"/>
+</head>
+<body onLoad="show3()">
+<div class="main">
+		<!--导航栏-->	
+	<div class="handler">
+		<div class="home"><a href="../page/mainPage.html" style="text-decoration:none;color:white">HOME</a></div>
+		<ul>
+			<li><a href="#">JQuery</a></li>
+			<li><a href="#">HTML</a></li>
+			<li><a href="#">JAVA</a></li>
+			<li><a href="#">MYSQL</a></li>
+		</ul>
+	</div>
+		<!--注册框-->
+		<div class="signUpKuang">
+		<div class="signUpHeader"><p><strong>signUp</strong>.now</p></div>
+		<!--表单位置-->
+		<form action="signUpServlet" method="post">
+		<!--姓名-->
+		<div class="input"><div class="input_Logo"><img src="../image/name.jpg"></div>
+		<input id="name"type="text" style="height:90%;font-size:20px;" placeholder="UserName" name="userName">
+		</div>
+		<!--密码-->
+		<div class="input" style="margin-top:15px"><div class="input_Logo">
+		<img src="../image/password.jpg"></div>
+		<input id="password" type="password" style="height:90%;font-size:20px" placeholder="PassWord" name="userPass">
+		</div>
+		<!--密码-->
+		<div class="input" style="margin-top:15px"><div class="input_Logo">
+		<img src="../image/password.jpg"></div>
+		<input id="passwordAngin" type="password" style="height:95%;font-size:20px" placeholder="PassWordAngin" >
+		</div>
+		<!--邮箱-->
+		<div class="input" style="margin-top:15px"><div class="input_Logo">
+		<img src="../image/email.jpg"></div>
+		<input id="email" type="email" style="height:95%;font-size:20px" placeholder="E-mail" name="email">
+		</div>
+			
+		<!--信息提示框：现在不可见-->
+		<p id = "tips" style="color:gold;margin-left:30px"></p>
+		<input  id="submits" type="submit" value="signUp" style="margin-top:15px;width:180px;height:50px;margin-left:3%;font-size:2em;color:gray" >
+		<a href="../page/login.html" >Login</a>
+		</form>
+	</div>
+	
+	
+	
+	
+	
+</div>
+<div class="footer">版权&copy叶超，伟龙，翰清，伟健</div>
+</body>
+</html>

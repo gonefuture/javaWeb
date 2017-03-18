@@ -1,0 +1,131 @@
+﻿
+div p{
+	
+	text-align:center;
+	font-size:2em;
+	position:relative;
+	top:-30%;
+	
+	
+}
+p a{
+	color:white;
+	text-decoration:none;
+	opacity:0.8;
+	display:block;
+	width:100%;
+	height:100%;
+	border: 5px solid white;
+	border-radius:20px;
+	
+}
+p a:hover{
+	
+	text-decoration:underline;
+	font-size:35px;
+	opacity:1.0;
+	background:pink;
+}
+
+.main{
+
+
+width:1000px;
+height:600px;
+background-image:url("../image/2.jpg");
+background-size:cover;
+
+
+
+}
+
+
+.signUp{
+	
+width:200px;
+height:60px;
+//background-image:linear-gradient(to right,#848484,white);
+
+position:relative;
+top:90%;
+left:10%;
+
+
+
+}
+.login{
+	
+width:200px;
+height:60px;
+//background-image:linear-gradient(to right,#848484,white);
+
+position:relative;
+top:90%;
+left:10%;
+
+	
+}
+ul{
+	list-style-type:none;
+	
+}
+li{
+	
+	float:left;
+}
+li a{
+	
+	display:block;
+	width:100px;
+	hight:100%;
+	padding:23px;
+	font-size:1em;
+	color:width;
+	text-decoration:none;
+	color:white;
+	text-align:center;
+	
+}
+li a:hover{
+	font-size:18px;
+	text-decoration:underline;
+	background:gray;
+}
+.handler{
+	
+	width:100%;
+	height:70px;
+	background-image:linear-gradient(to right,gray,white);
+	
+}
+
+.home{
+	
+	width:20%;
+	height:100%;
+	float:left;
+	font-size:3em;
+	color:white;
+	margin-left:30px;
+}
+pre{
+	
+	position:relative;
+	left:52%;
+	top:0%;
+	width:38%;
+	height:50%;
+	font-size:30px;
+	font-family:"微软雅黑";
+	color:white;
+	display:none;
+	
+}
+
+
+.footer{
+	background-image:linear-gradient(to left,yellow,orange);
+	text-align:center;
+	width:1000px;
+	
+}
